@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Calculator_SF" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="ukM-X6-zji">
+                                <rect key="frame" x="7" y="312.66666666666674" width="376" height="487.33333333333326"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="xop-bC-dHO">
+                                        <rect key="frame" x="0.0" y="0.0" width="376" height="92"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PpK-mI-08k">
+                                                <rect key="frame" x="0.0" y="0.0" width="88.666666666666671" height="92"/>
+                                                <color key="backgroundColor" name="Number Buttons 2"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="C">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="27"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EUF-zN-Abo">
+                                                <rect key="frame" x="95.666666666666686" y="0.0" width="89" height="92"/>
+                                                <color key="backgroundColor" name="Number Buttons 2"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="±">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="27"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kKQ-aU-Tkj">
+                                                <rect key="frame" x="191.66666666666666" y="0.0" width="88.666666666666657" height="92"/>
+                                                <color key="backgroundColor" name="Number Buttons 2"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="%">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="27"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g7R-uR-YWS">
+                                                <rect key="frame" x="287.33333333333331" y="0.0" width="88.666666666666686" height="92"/>
+                                                <color key="backgroundColor" name="Number Buttons 2"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="+">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="27"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="bNf-97-XLs">
+                                        <rect key="frame" x="0.0" y="99" width="376" height="91.666666666666686"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MEX-ka-VXb">
+                                                <rect key="frame" x="0.0" y="0.0" width="88.666666666666671" height="91.666666666666671"/>
+                                                <color key="backgroundColor" name="Number Buttons 1"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="7">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="27"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MIS-wA-saz">
+                                                <rect key="frame" x="95.666666666666686" y="0.0" width="89" height="91.666666666666671"/>
+                                                <color key="backgroundColor" name="Number Buttons 1"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="8">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="27"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JLd-9Y-x0r">
+                                                <rect key="frame" x="191.66666666666666" y="0.0" width="88.666666666666657" height="91.666666666666671"/>
+                                                <color key="backgroundColor" name="Number Buttons 1"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="9">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="27"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Adn-Ba-ndQ">
+                                                <rect key="frame" x="287.33333333333331" y="0.0" width="88.666666666666686" height="91.666666666666671"/>
+                                                <color key="backgroundColor" name="Number Buttons 2"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="_">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="27"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="9xU-mU-2PZ">
+                                        <rect key="frame" x="0.0" y="197.66666666666663" width="376" height="92"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NJg-QC-5gF">
+                                                <rect key="frame" x="0.0" y="0.0" width="88.666666666666671" height="92"/>
+                                                <color key="backgroundColor" name="Number Buttons 1"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="4">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="27"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VbD-4M-wVW">
+                                                <rect key="frame" x="95.666666666666686" y="0.0" width="89" height="92"/>
+                                                <color key="backgroundColor" name="Number Buttons 1"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="5">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="27"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KKK-p0-Ivp">
+                                                <rect key="frame" x="191.66666666666666" y="0.0" width="88.666666666666657" height="92"/>
+                                                <color key="backgroundColor" name="Number Buttons 1"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="6">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="27"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LvF-rp-SZ4">
+                                                <rect key="frame" x="287.33333333333331" y="0.0" width="88.666666666666686" height="92"/>
+                                                <color key="backgroundColor" name="Number Buttons 2"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="×">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="27"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="X91-E7-k5H">
+                                        <rect key="frame" x="0.0" y="296.66666666666669" width="376" height="91.666666666666686"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xL2-aU-jcg">
+                                                <rect key="frame" x="0.0" y="0.0" width="88.666666666666671" height="91.666666666666671"/>
+                                                <color key="backgroundColor" name="Number Buttons 1"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="1">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="27"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NUg-9r-eQd">
+                                                <rect key="frame" x="95.666666666666686" y="0.0" width="89" height="91.666666666666671"/>
+                                                <color key="backgroundColor" name="Number Buttons 1"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="2">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="27"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O3X-4W-EKr">
+                                                <rect key="frame" x="191.66666666666666" y="0.0" width="88.666666666666657" height="91.666666666666671"/>
+                                                <color key="backgroundColor" name="Number Buttons 1"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="3">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="27"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ICg-ix-WwM">
+                                                <rect key="frame" x="287.33333333333331" y="0.0" width="88.666666666666686" height="91.666666666666671"/>
+                                                <color key="backgroundColor" name="Number Buttons 2"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="÷">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="27"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="Ygw-P9-2dZ">
+                                        <rect key="frame" x="0.0" y="395.33333333333331" width="376" height="92"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bgy-U3-947">
+                                                <rect key="frame" x="0.0" y="0.0" width="88.666666666666671" height="92"/>
+                                                <color key="backgroundColor" name="Number Buttons 1"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="√">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="27"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gdd-N8-7lw">
+                                                <rect key="frame" x="95.666666666666686" y="0.0" width="89" height="92"/>
+                                                <color key="backgroundColor" name="Number Buttons 1"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="0">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="27"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q7q-G8-8ac">
+                                                <rect key="frame" x="191.66666666666666" y="0.0" width="88.666666666666657" height="92"/>
+                                                <color key="backgroundColor" name="Number Buttons 1"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title=".">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="35"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AaL-sb-iFj">
+                                                <rect key="frame" x="287.33333333333331" y="0.0" width="88.666666666666686" height="92"/>
+                                                <color key="backgroundColor" name="Number Buttons 2"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="=">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="27"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.34999999999999998" translatesAutoresizingMaskIntoConstraints="NO" id="Asc-M3-sc9">
+                                <rect key="frame" x="7" y="186" width="376" height="119.66666666666669"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                                <color key="textColor" name="Label"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Asc-M3-sc9" firstAttribute="height" secondItem="ukM-X6-zji" secondAttribute="height" multiplier="0.245554" id="B9a-Db-pIK"/>
+                            <constraint firstItem="ukM-X6-zji" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="7" id="HEM-uj-lyu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ukM-X6-zji" secondAttribute="trailing" constant="7" id="IZM-6Y-k00"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Asc-M3-sc9" secondAttribute="trailing" constant="7" id="Uvc-A9-dg4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ukM-X6-zji" secondAttribute="bottom" constant="10" id="ddV-bJ-sCU"/>
+                            <constraint firstItem="ukM-X6-zji" firstAttribute="top" secondItem="Asc-M3-sc9" secondAttribute="bottom" constant="7" id="eyK-oh-ywn"/>
+                            <constraint firstItem="Asc-M3-sc9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="7" id="hcc-qI-BGe"/>
+                            <constraint firstItem="Asc-M3-sc9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="142" id="kx4-jw-BUl"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="resultLabel" destination="Asc-M3-sc9" id="sxT-u4-WiZ"/>
+                        <outlet property="topConstraint" destination="kx4-jw-BUl" id="GvH-J8-wO2"/>
+                        <outletCollection property="buttons" destination="PpK-mI-08k" collectionClass="NSMutableArray" id="I2E-Sr-c6k"/>
+                        <outletCollection property="buttons" destination="EUF-zN-Abo" collectionClass="NSMutableArray" id="uJe-kn-Hnu"/>
+                        <outletCollection property="buttons" destination="kKQ-aU-Tkj" collectionClass="NSMutableArray" id="aJ6-JF-gSz"/>
+                        <outletCollection property="buttons" destination="g7R-uR-YWS" collectionClass="NSMutableArray" id="USl-uJ-HGp"/>
+                        <outletCollection property="buttons" destination="MEX-ka-VXb" collectionClass="NSMutableArray" id="U97-bg-xjP"/>
+                        <outletCollection property="buttons" destination="MIS-wA-saz" collectionClass="NSMutableArray" id="axt-9O-hzW"/>
+                        <outletCollection property="buttons" destination="JLd-9Y-x0r" collectionClass="NSMutableArray" id="lWi-fu-wEU"/>
+                        <outletCollection property="buttons" destination="Adn-Ba-ndQ" collectionClass="NSMutableArray" id="qjE-oI-Ryh"/>
+                        <outletCollection property="buttons" destination="VbD-4M-wVW" collectionClass="NSMutableArray" id="1wu-LC-qd9"/>
+                        <outletCollection property="buttons" destination="KKK-p0-Ivp" collectionClass="NSMutableArray" id="c9q-UE-bgH"/>
+                        <outletCollection property="buttons" destination="LvF-rp-SZ4" collectionClass="NSMutableArray" id="YZZ-og-Hp9"/>
+                        <outletCollection property="buttons" destination="xL2-aU-jcg" collectionClass="NSMutableArray" id="wjG-tj-4md"/>
+                        <outletCollection property="buttons" destination="NUg-9r-eQd" collectionClass="NSMutableArray" id="O7r-c5-Ujg"/>
+                        <outletCollection property="buttons" destination="O3X-4W-EKr" collectionClass="NSMutableArray" id="vk9-sk-hbI"/>
+                        <outletCollection property="buttons" destination="ICg-ix-WwM" collectionClass="NSMutableArray" id="Jzj-0t-fal"/>
+                        <outletCollection property="buttons" destination="bgy-U3-947" collectionClass="NSMutableArray" id="sXa-Fh-hSt"/>
+                        <outletCollection property="buttons" destination="gdd-N8-7lw" collectionClass="NSMutableArray" id="VHc-9o-t2n"/>
+                        <outletCollection property="buttons" destination="Q7q-G8-8ac" collectionClass="NSMutableArray" id="ijd-vf-cQR"/>
+                        <outletCollection property="buttons" destination="AaL-sb-iFj" collectionClass="NSMutableArray" id="jQH-ZF-VCc"/>
+                        <outletCollection property="buttons" destination="NJg-QC-5gF" collectionClass="NSMutableArray" id="wmi-PD-4pj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="20" y="65.402843601895725"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="Label">
+            <color red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Number Buttons 1">
+            <color red="0.65098039220000004" green="0.50588235290000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="Number Buttons 2">
+            <color red="1" green="0.60392156860000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
