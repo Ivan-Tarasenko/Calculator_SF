@@ -17,16 +17,10 @@ class ViewController: UIViewController {
 
     var currentInput: Double {
         get {
-            return Double(resultLabel.txt) ?? 0
+            return Double(resultLabel.txt)!
         }
         set {
-            let value = "\(newValue)"   // Getting rid of zero in a double
-            let valueArrey = value.components(separatedBy: ".")
-            if valueArrey[1] == "0" {
-                resultLabel.txt = "\(valueArrey[0])"
-            } else {
-                resultLabel.txt = "\(newValue)"
-            }
+            resultLabel.txt = String(format: "%g", newValue) // Getting rid of zero in a double
         }
     }
 
@@ -55,6 +49,7 @@ class ViewController: UIViewController {
     @IBAction func numberPressed(_ sender: UIButton) {
         model.doNotEnterZeroFirst(for: resultLabel)
         model.limitInput(for: sender.currentTitle!, andShowIn: resultLabel)
+        sender.accessibilityIdentifier = "number \(String(describing: sender.titleLabel?.txt))"
         
     }
 
@@ -69,7 +64,7 @@ class ViewController: UIViewController {
 
     @IBAction func sqrtPressed(_ sender: UIButton) {
         currentInput = sqrt(currentInput)
-            model.isTyping = false
+        model.isTyping = false
     }
 
     @IBAction func dotButtonPressed(_ sender: UIButton) {
@@ -83,11 +78,6 @@ extension ViewController {
 
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
-//        setFontSize()
-        setColorStatusBar()
-    }
-
-    func setColorStatusBar() {
         if #available(iOS 12.0, *) {
             if self.traitCollection.userInterfaceStyle == .dark {
                 var preferredStatusBarStyle: UIStatusBarStyle {
@@ -100,19 +90,6 @@ extension ViewController {
             }
         }
     }
-
-    func setFontSize() {
-        if UIDevice.current.orientation.isPortrait {
-            for buttom in buttons {
-                buttom.titleLabel?.font = UIFont.systemFont(ofSize: 27)
-            }
-        } else {
-            for buttom in buttons {
-                buttom.titleLabel?.font = UIFont.systemFont(ofSize: 20)
-            }
-        }
-    }
-
 }
 
 // MARK: - viewWillTransition
@@ -126,9 +103,5 @@ extension ViewController {
         } else {
             topConstraint.constant = 10
         }
-    }
-
-    override func viewWillLayoutSubviews() {
-
     }
 }
