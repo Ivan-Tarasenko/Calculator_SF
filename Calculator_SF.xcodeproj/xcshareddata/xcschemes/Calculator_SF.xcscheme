@@ -38,6 +38,21 @@
                ReferencedContainer = "container:Calculator_SF.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1A68E01228DC03E0006C2EB8"
+               BuildableName = "Calculator_SF_UI_Tests.xctest"
+               BlueprintName = "Calculator_SF_UI_Tests"
+               ReferencedContainer = "container:Calculator_SF.xcodeproj">
+            </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "Calculator_SF_UI_TestsLaunchTests">
+               </Test>
+            </SkippedTests>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

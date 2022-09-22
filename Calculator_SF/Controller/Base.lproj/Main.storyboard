@@ -27,6 +27,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PpK-mI-08k">
                                                 <rect key="frame" x="0.0" y="0.0" width="88.666666666666671" height="92"/>
                                                 <color key="backgroundColor" name="Number Buttons 2"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="ClearButton" label="ClearButton"/>
                                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="25"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -38,6 +39,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EUF-zN-Abo">
                                                 <rect key="frame" x="95.666666666666686" y="0.0" width="89" height="92"/>
                                                 <color key="backgroundColor" name="Number Buttons 2"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="PlusOrMinusButton" label="PlusOrMinusButton"/>
                                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="25"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -49,6 +51,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kKQ-aU-Tkj">
                                                 <rect key="frame" x="191.66666666666666" y="0.0" width="88.666666666666657" height="92"/>
                                                 <color key="backgroundColor" name="Number Buttons 2"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="PercentButton" label="PercentButton"/>
                                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="25"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -60,6 +63,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g7R-uR-YWS">
                                                 <rect key="frame" x="287.33333333333331" y="0.0" width="88.666666666666686" height="92"/>
                                                 <color key="backgroundColor" name="Number Buttons 2"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="PlusButton" label="PlusButton"/>
                                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="25"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -76,6 +80,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MEX-ka-VXb">
                                                 <rect key="frame" x="0.0" y="0.0" width="88.666666666666671" height="91.666666666666671"/>
                                                 <color key="backgroundColor" name="Number Buttons 1"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="SevenButton" label="SevenButton"/>
                                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="25"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -87,6 +92,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MIS-wA-saz">
                                                 <rect key="frame" x="95.666666666666686" y="0.0" width="89" height="91.666666666666671"/>
                                                 <color key="backgroundColor" name="Number Buttons 1"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="EightButton" label="EightButton"/>
                                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="25"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -98,6 +104,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JLd-9Y-x0r">
                                                 <rect key="frame" x="191.66666666666666" y="0.0" width="88.666666666666657" height="91.666666666666671"/>
                                                 <color key="backgroundColor" name="Number Buttons 1"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="NineButton" label="NineButton"/>
                                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="25"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -109,6 +116,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Adn-Ba-ndQ">
                                                 <rect key="frame" x="287.33333333333331" y="0.0" width="88.666666666666686" height="91.666666666666671"/>
                                                 <color key="backgroundColor" name="Number Buttons 2"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="MinusButton" label="MinusButton"/>
                                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="25"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -125,6 +133,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NJg-QC-5gF">
                                                 <rect key="frame" x="0.0" y="0.0" width="88.666666666666671" height="92"/>
                                                 <color key="backgroundColor" name="Number Buttons 1"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="FourButton" label="FourButton"/>
                                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="25"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -136,6 +145,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VbD-4M-wVW">
                                                 <rect key="frame" x="95.666666666666686" y="0.0" width="89" height="92"/>
                                                 <color key="backgroundColor" name="Number Buttons 1"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="FiveButton" label="FiveButton"/>
                                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="25"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -147,6 +157,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KKK-p0-Ivp">
                                                 <rect key="frame" x="191.66666666666666" y="0.0" width="88.666666666666657" height="92"/>
                                                 <color key="backgroundColor" name="Number Buttons 1"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="SixButton" label="SixButton"/>
                                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="25"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -158,6 +169,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LvF-rp-SZ4">
                                                 <rect key="frame" x="287.33333333333331" y="0.0" width="88.666666666666686" height="92"/>
                                                 <color key="backgroundColor" name="Number Buttons 2"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="MultiplyButton" label="MultiplyButton"/>
                                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="25"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -174,6 +186,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xL2-aU-jcg">
                                                 <rect key="frame" x="0.0" y="0.0" width="88.666666666666671" height="91.666666666666671"/>
                                                 <color key="backgroundColor" name="Number Buttons 1"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="OneButton" label="OneButton"/>
                                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="25"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -185,6 +198,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NUg-9r-eQd">
                                                 <rect key="frame" x="95.666666666666686" y="0.0" width="89" height="91.666666666666671"/>
                                                 <color key="backgroundColor" name="Number Buttons 1"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="TwoButton" label="TwoButton"/>
                                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="25"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -196,6 +210,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O3X-4W-EKr">
                                                 <rect key="frame" x="191.66666666666666" y="0.0" width="88.666666666666657" height="91.666666666666671"/>
                                                 <color key="backgroundColor" name="Number Buttons 1"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="ThreeButton" label="ThreeButton"/>
                                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="25"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -207,6 +222,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ICg-ix-WwM">
                                                 <rect key="frame" x="287.33333333333331" y="0.0" width="88.666666666666686" height="91.666666666666671"/>
                                                 <color key="backgroundColor" name="Number Buttons 2"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="DivisionButton" label="DivisionButton"/>
                                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="25"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -223,6 +239,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bgy-U3-947">
                                                 <rect key="frame" x="0.0" y="0.0" width="88.666666666666671" height="92"/>
                                                 <color key="backgroundColor" name="Number Buttons 1"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="SquareRootButton" label="SquareRootButton"/>
                                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="25"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -234,6 +251,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gdd-N8-7lw">
                                                 <rect key="frame" x="95.666666666666686" y="0.0" width="89" height="92"/>
                                                 <color key="backgroundColor" name="Number Buttons 1"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="ZeroButton" label="ZeroButton"/>
                                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="25"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -245,6 +263,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q7q-G8-8ac">
                                                 <rect key="frame" x="191.66666666666666" y="0.0" width="88.666666666666657" height="92"/>
                                                 <color key="backgroundColor" name="Number Buttons 1"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="DotButton" label="DotButton"/>
                                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="25"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -256,6 +275,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AaL-sb-iFj">
                                                 <rect key="frame" x="287.33333333333331" y="0.0" width="88.666666666666686" height="92"/>
                                                 <color key="backgroundColor" name="Number Buttons 2"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="EquallyButton" label="EquallyButton"/>
                                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="25"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -271,17 +291,11 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.29999999999999999" translatesAutoresizingMaskIntoConstraints="NO" id="Asc-M3-sc9">
                                 <rect key="frame" x="7" y="186" width="376" height="119.66666666666669"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <accessibility key="accessibilityConfiguration" identifier="ResultLabel"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="96"/>
                                 <color key="textColor" name="Label"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k0B-NA-Nyx">
-                                <rect key="frame" x="64" y="86" width="169" height="72"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Button"/>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>

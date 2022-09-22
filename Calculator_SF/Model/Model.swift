@@ -50,7 +50,7 @@ class ModelCalc {
             value = operand(firstOperand, secondOperand)
             isTyping = false
         }
-
+        
         if isTyping {
             secondOperand = value
         }
