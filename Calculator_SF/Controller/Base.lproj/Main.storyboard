@@ -24,7 +24,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="xop-bC-dHO">
                                         <rect key="frame" x="0.0" y="0.0" width="376" height="92"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PpK-mI-08k">
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PpK-mI-08k" customClass="OperationButton" customModule="Calculator_SF" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="88.666666666666671" height="92"/>
                                                 <color key="backgroundColor" name="Number Buttons 2"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="ClearButton" label="ClearButton"/>
@@ -36,7 +36,7 @@
                                                     <action selector="clearPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Udb-JX-vFC"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EUF-zN-Abo">
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EUF-zN-Abo" customClass="OperationButton" customModule="Calculator_SF" customModuleProvider="target">
                                                 <rect key="frame" x="95.666666666666686" y="0.0" width="89" height="92"/>
                                                 <color key="backgroundColor" name="Number Buttons 2"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="PlusOrMinusButton" label="PlusOrMinusButton"/>
@@ -48,7 +48,7 @@
                                                     <action selector="reverseSingPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="J0G-Ve-cLB"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kKQ-aU-Tkj">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kKQ-aU-Tkj" customClass="OperationButton" customModule="Calculator_SF" customModuleProvider="target">
                                                 <rect key="frame" x="191.66666666666666" y="0.0" width="88.666666666666657" height="92"/>
                                                 <color key="backgroundColor" name="Number Buttons 2"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="PercentButton" label="PercentButton"/>
@@ -60,7 +60,7 @@
                                                     <action selector="procentPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Apr-Wm-zgg"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g7R-uR-YWS">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g7R-uR-YWS" customClass="OperationButton" customModule="Calculator_SF" customModuleProvider="target">
                                                 <rect key="frame" x="287.33333333333331" y="0.0" width="88.666666666666686" height="92"/>
                                                 <color key="backgroundColor" name="Number Buttons 2"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="PlusButton" label="PlusButton"/>
@@ -77,7 +77,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="bNf-97-XLs">
                                         <rect key="frame" x="0.0" y="99" width="376" height="91.666666666666686"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MEX-ka-VXb">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MEX-ka-VXb" customClass="NumberButton" customModule="Calculator_SF" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="88.666666666666671" height="91.666666666666671"/>
                                                 <color key="backgroundColor" name="Number Buttons 1"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="SevenButton" label="SevenButton"/>
@@ -89,7 +89,7 @@
                                                     <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q3g-gT-GJI"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MIS-wA-saz">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MIS-wA-saz" customClass="NumberButton" customModule="Calculator_SF" customModuleProvider="target">
                                                 <rect key="frame" x="95.666666666666686" y="0.0" width="89" height="91.666666666666671"/>
                                                 <color key="backgroundColor" name="Number Buttons 1"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="EightButton" label="EightButton"/>
@@ -101,7 +101,7 @@
                                                     <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Cb-1J-Owi"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JLd-9Y-x0r">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JLd-9Y-x0r" customClass="NumberButton" customModule="Calculator_SF" customModuleProvider="target">
                                                 <rect key="frame" x="191.66666666666666" y="0.0" width="88.666666666666657" height="91.666666666666671"/>
                                                 <color key="backgroundColor" name="Number Buttons 1"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="NineButton" label="NineButton"/>
@@ -113,7 +113,7 @@
                                                     <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jcV-t8-eUZ"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Adn-Ba-ndQ">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Adn-Ba-ndQ" customClass="OperationButton" customModule="Calculator_SF" customModuleProvider="target">
                                                 <rect key="frame" x="287.33333333333331" y="0.0" width="88.666666666666686" height="91.666666666666671"/>
                                                 <color key="backgroundColor" name="Number Buttons 2"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="MinusButton" label="MinusButton"/>
@@ -130,7 +130,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="9xU-mU-2PZ">
                                         <rect key="frame" x="0.0" y="197.66666666666663" width="376" height="92"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NJg-QC-5gF">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NJg-QC-5gF" customClass="NumberButton" customModule="Calculator_SF" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="88.666666666666671" height="92"/>
                                                 <color key="backgroundColor" name="Number Buttons 1"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="FourButton" label="FourButton"/>
@@ -142,7 +142,7 @@
                                                     <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XUG-xc-IoZ"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VbD-4M-wVW">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VbD-4M-wVW" customClass="NumberButton" customModule="Calculator_SF" customModuleProvider="target">
                                                 <rect key="frame" x="95.666666666666686" y="0.0" width="89" height="92"/>
                                                 <color key="backgroundColor" name="Number Buttons 1"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="FiveButton" label="FiveButton"/>
@@ -154,7 +154,7 @@
                                                     <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="m47-80-yFa"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KKK-p0-Ivp">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KKK-p0-Ivp" customClass="NumberButton" customModule="Calculator_SF" customModuleProvider="target">
                                                 <rect key="frame" x="191.66666666666666" y="0.0" width="88.666666666666657" height="92"/>
                                                 <color key="backgroundColor" name="Number Buttons 1"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="SixButton" label="SixButton"/>
@@ -166,7 +166,7 @@
                                                     <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8d1-rU-F03"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LvF-rp-SZ4">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LvF-rp-SZ4" customClass="OperationButton" customModule="Calculator_SF" customModuleProvider="target">
                                                 <rect key="frame" x="287.33333333333331" y="0.0" width="88.666666666666686" height="92"/>
                                                 <color key="backgroundColor" name="Number Buttons 2"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="MultiplyButton" label="MultiplyButton"/>
@@ -183,7 +183,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="X91-E7-k5H">
                                         <rect key="frame" x="0.0" y="296.66666666666669" width="376" height="91.666666666666686"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xL2-aU-jcg">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xL2-aU-jcg" customClass="NumberButton" customModule="Calculator_SF" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="88.666666666666671" height="91.666666666666671"/>
                                                 <color key="backgroundColor" name="Number Buttons 1"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="OneButton" label="OneButton"/>
@@ -195,7 +195,7 @@
                                                     <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="k3j-Rx-dqt"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NUg-9r-eQd">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NUg-9r-eQd" customClass="NumberButton" customModule="Calculator_SF" customModuleProvider="target">
                                                 <rect key="frame" x="95.666666666666686" y="0.0" width="89" height="91.666666666666671"/>
                                                 <color key="backgroundColor" name="Number Buttons 1"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="TwoButton" label="TwoButton"/>
@@ -207,7 +207,7 @@
                                                     <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uFc-45-gTN"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O3X-4W-EKr">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O3X-4W-EKr" customClass="NumberButton" customModule="Calculator_SF" customModuleProvider="target">
                                                 <rect key="frame" x="191.66666666666666" y="0.0" width="88.666666666666657" height="91.666666666666671"/>
                                                 <color key="backgroundColor" name="Number Buttons 1"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="ThreeButton" label="ThreeButton"/>
@@ -219,7 +219,7 @@
                                                     <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ucr-Rc-f2m"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ICg-ix-WwM">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ICg-ix-WwM" customClass="OperationButton" customModule="Calculator_SF" customModuleProvider="target">
                                                 <rect key="frame" x="287.33333333333331" y="0.0" width="88.666666666666686" height="91.666666666666671"/>
                                                 <color key="backgroundColor" name="Number Buttons 2"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="DivisionButton" label="DivisionButton"/>
@@ -236,7 +236,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="Ygw-P9-2dZ">
                                         <rect key="frame" x="0.0" y="395.33333333333331" width="376" height="92"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bgy-U3-947">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bgy-U3-947" customClass="NumberButton" customModule="Calculator_SF" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="88.666666666666671" height="92"/>
                                                 <color key="backgroundColor" name="Number Buttons 1"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="SquareRootButton" label="SquareRootButton"/>
@@ -248,7 +248,7 @@
                                                     <action selector="sqrtPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UuM-GQ-K7m"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gdd-N8-7lw">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gdd-N8-7lw" customClass="NumberButton" customModule="Calculator_SF" customModuleProvider="target">
                                                 <rect key="frame" x="95.666666666666686" y="0.0" width="89" height="92"/>
                                                 <color key="backgroundColor" name="Number Buttons 1"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="ZeroButton" label="ZeroButton"/>
@@ -260,7 +260,7 @@
                                                     <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xzf-IA-gEa"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q7q-G8-8ac">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q7q-G8-8ac" customClass="NumberButton" customModule="Calculator_SF" customModuleProvider="target">
                                                 <rect key="frame" x="191.66666666666666" y="0.0" width="88.666666666666657" height="92"/>
                                                 <color key="backgroundColor" name="Number Buttons 1"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="DotButton" label="DotButton"/>
@@ -272,7 +272,7 @@
                                                     <action selector="dotButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BRZ-Qm-8r9"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AaL-sb-iFj">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AaL-sb-iFj" customClass="OperationButton" customModule="Calculator_SF" customModuleProvider="target">
                                                 <rect key="frame" x="287.33333333333331" y="0.0" width="88.666666666666686" height="92"/>
                                                 <color key="backgroundColor" name="Number Buttons 2"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="EquallyButton" label="EquallyButton"/>
@@ -348,7 +348,7 @@
             <color red="0.65100002288818359" green="0.50599998235702515" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <namedColor name="Number Buttons 2">
-            <color red="1" green="0.60392156862745094" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <color red="1" green="0.60399997234344482" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

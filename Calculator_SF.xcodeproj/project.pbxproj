@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1A47909828D9A16F0078D10F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A47909728D9A16F0078D10F /* Model.swift */; };
+		1A67D85228F2798F009BDECC /* NumberButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A67D85128F2798F009BDECC /* NumberButton.swift */; };
+		1A67D85428F27AA5009BDECC /* OperationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A67D85328F27AA5009BDECC /* OperationButton.swift */; };
 		1A68E00128D9C86C006C2EB8 /* UILabel+SaveText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A68E00028D9C86C006C2EB8 /* UILabel+SaveText.swift */; };
 		1A68E00928DAE3D6006C2EB8 /* Calculator_SF_Unit_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A68E00828DAE3D6006C2EB8 /* Calculator_SF_Unit_Tests.swift */; };
 		1A68E01628DC03E0006C2EB8 /* Calculator_SF_UI_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A68E01528DC03E0006C2EB8 /* Calculator_SF_UI_Tests.swift */; };
@@ -40,6 +42,8 @@
 
 /* Begin PBXFileReference section */
 		1A47909728D9A16F0078D10F /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		1A67D85128F2798F009BDECC /* NumberButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberButton.swift; sourceTree = "<group>"; };
+		1A67D85328F27AA5009BDECC /* OperationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationButton.swift; sourceTree = "<group>"; };
 		1A68E00028D9C86C006C2EB8 /* UILabel+SaveText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+SaveText.swift"; sourceTree = "<group>"; };
 		1A68E00628DAE3D6006C2EB8 /* Calculator_SF_Unit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Calculator_SF_Unit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A68E00828DAE3D6006C2EB8 /* Calculator_SF_Unit_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator_SF_Unit_Tests.swift; sourceTree = "<group>"; };
@@ -119,6 +123,15 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		1A67D85028F27973009BDECC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1A67D85128F2798F009BDECC /* NumberButton.swift */,
+				1A67D85328F27AA5009BDECC /* OperationButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		1A68DFFF28D9C82C006C2EB8 /* Extentions */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,6 +181,7 @@
 		1AB6E8DC28D714CA001302B1 /* Calculator_SF */ = {
 			isa = PBXGroup;
 			children = (
+				1A67D85028F27973009BDECC /* View */,
 				1A47909628D9A1530078D10F /* Model */,
 				1A47909328D9A0A00078D10F /* Controller */,
 				1A47909428D9A0B00078D10F /* SupportingFiles */,
@@ -348,7 +362,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AB6E8E228D714CA001302B1 /* ViewController.swift in Sources */,
+				1A67D85428F27AA5009BDECC /* OperationButton.swift in Sources */,
 				1AB6E8DE28D714CA001302B1 /* AppDelegate.swift in Sources */,
+				1A67D85228F2798F009BDECC /* NumberButton.swift in Sources */,
 				1A68E00128D9C86C006C2EB8 /* UILabel+SaveText.swift in Sources */,
 				1AB6E8E028D714CA001302B1 /* SceneDelegate.swift in Sources */,
 				1A47909828D9A16F0078D10F /* Model.swift in Sources */,
